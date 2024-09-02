@@ -1,70 +1,81 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Frontend README
 
-## Available Scripts
+## Deskripsi
 
-In the project directory, you can run:
+Frontend untuk aplikasi ini menggunakan React untuk berinteraksi dengan API backend yang disediakan. Aplikasi ini memungkinkan pengguna untuk melihat, menambah, mengedit, dan menghapus data barang, jenis barang, dan transaksi, serta membandingkan transaksi berdasarkan kriteria tertentu.
 
-### `npm start`
+## Instalasi Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js >= 14.x
+- npm atau yarn
 
-### `npm test`
+### Langkah-langkah Instalasi
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone Repository**
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/username/frontend-repository.git
+   cd frontend-repository
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install Dependencies**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   atau jika menggunakan yarn:
 
-### `npm run eject`
+   ```bash
+   yarn install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Run the Development Server**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   atau jika menggunakan yarn:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   yarn start
+   ```
 
-## Learn More
+   Aplikasi akan tersedia di `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Daftar Halaman dan Fungsionalitas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Barang
 
-### Code Splitting
+- **Daftar Barang**: Menampilkan semua barang dengan opsi untuk melihat detail, mengedit, dan menghapus barang.
+- **Tambah Barang**: Formulir untuk menambahkan barang baru.
+- **Edit Barang**: Formulir untuk mengedit barang yang sudah ada.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Jenis Barang
 
-### Analyzing the Bundle Size
+- **Daftar Jenis Barang**: Menampilkan semua jenis barang dengan opsi untuk melihat detail, mengedit, dan menghapus jenis barang.
+- **Tambah Jenis Barang**: Formulir untuk menambahkan jenis barang baru.
+- **Edit Jenis Barang**: Formulir untuk mengedit jenis barang yang sudah ada.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Transaksi
 
-### Making a Progressive Web App
+- **Daftar Transaksi**: Menampilkan semua transaksi dengan opsi untuk melihat detail, mengedit, dan menghapus transaksi.
+- **Tambah Transaksi**: Formulir untuk menambahkan transaksi baru.
+- **Edit Transaksi**: Formulir untuk mengedit transaksi yang sudah ada.
+- **Bandingkan Transaksi**: Menampilkan perbandingan transaksi berdasarkan jumlah terjual dengan opsi untuk mengurutkan dan memfilter berdasarkan rentang tanggal.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Kontribusi
 
-### Advanced Configuration
+Jika Anda ingin berkontribusi pada proyek ini, silakan fork repository ini, buat cabang (`branch`) baru, dan buat pull request. Pastikan untuk menyertakan deskripsi yang jelas tentang perubahan yang Anda buat.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Lisensi
 
-### Deployment
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+README di atas memisahkan informasi backend dan frontend, sehingga lebih mudah dipahami dan digunakan oleh pengembang yang berbeda. Anda dapat menyesuaikan detail seperti URL repository dan deskripsi sesuai kebutuhan proyek Anda.
